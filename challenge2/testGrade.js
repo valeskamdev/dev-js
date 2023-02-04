@@ -9,12 +9,12 @@ const students = [
     { name: "Tom", testGrade: 8},
 ]
 
-const newStudent = students.map(student => {
-    const newStudent = {
+const approvedStudents = students.map(student => {
+    const students = {
         name: student.name,
         finalResult: student.testGrade >= 7 ? "approved" : "disapproved"
     }
-    return newStudent;
+    return students;
 })
 
-console.log(newStudent);
+console.log(approvedStudents);

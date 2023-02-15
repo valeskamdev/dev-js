@@ -1,6 +1,6 @@
 # dev-js
 
-challege01:
+challenge01:
 
 https://we-care-pet.netlify.app
 
